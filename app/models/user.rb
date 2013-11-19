@@ -1,3 +1,3 @@
 class User < ActiveRecord::Base
-	had_many :microposts
+	has_many :microposts
 end
